@@ -5,6 +5,7 @@
 * onClick handles handleAdd() method
 *handleAdd() dispatchs addOne() method in Actions/index.js which in turn return type(ADD_ONE) invokes the reducer
 * And in reducer based on the type in switch statement that case action is executed(here increments by 1)and updates the state and returns the value to App.js to display
+
 ...
 
 * TotalDisplay shows the total plus 1.
